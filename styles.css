@@ -6,15 +6,15 @@
 }
 
 body{
-  margin: 50px;
+  margin: 30px 95px;
   padding: 10px;
-  border: 2px solid red;
 }
 .title{
   font-size: 44px;
   font-family: 'Roboto';
   display: flex;
   justify-content: center;
+  color: #292929;
 }
 
 .cards {
@@ -23,9 +23,9 @@ body{
 }
 
 .card {
-  border: 2px solid red;
   margin: 35px;
-  border-radius: 25px;
+  border: 0.2px solid #8f8f8f;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@ body{
 }
 .card-img {
   width: 100%;
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .card-description {

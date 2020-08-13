@@ -50,7 +50,7 @@ body{
   color: #606060;
 }
 
-.btn-container {
+.btn {
   height: 50px;
   background-color: black;
   height: 42px;
@@ -59,11 +59,17 @@ body{
   justify-content: center;
   align-items: center;
   margin: 10px;
+  cursor:pointer;
+  color: white;
+  font-weight: 600;
+  font-family: serif;
+  font-size: 16px;
 }
 
 .blank{
   height: 100px;
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -75,6 +81,12 @@ a {
   font-family: 'Roboto'
 }
 
-.footer-spacing{
+.footer-spacing {
   height: 18px;
+}
+
+.footer-link-container{
+  width: 96px;
+  display: flex;
+  justify-content: space-between;
 }

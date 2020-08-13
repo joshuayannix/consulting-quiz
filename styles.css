@@ -61,8 +61,20 @@ body{
   margin: 10px;
 }
 
+.blank{
+  height: 100px;
+}
 a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+
+}
+
+.footer-text{
+  color: #8f8f8f;
+  font-family: 'Roboto'
+}
+
+.footer-spacing{
+  height: 18px;
 }

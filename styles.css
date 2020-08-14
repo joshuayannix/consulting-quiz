@@ -78,7 +78,8 @@ a {
 
 .footer-text{
   color: #8f8f8f;
-  font-family: 'Roboto'
+  font-family: 'Roboto';
+  font-size: 12px;
 }
 
 .footer-spacing {
